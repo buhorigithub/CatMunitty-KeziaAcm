@@ -5,6 +5,10 @@ export default {
   content: ["./client/index.html", "./client/src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        body: ['Poppins', 'sans-serif'],
+        heading: ['Quicksand', 'sans-serif'],
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
@@ -44,6 +48,11 @@ export default {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
+        dark: "hsl(var(--dark))",
+        sdg2: "hsl(var(--sdg2))",
+        sdg11: "hsl(var(--sdg11))",
+        sdg15: "hsl(var(--sdg15))",
+        sdg17: "hsl(var(--sdg17))",
         chart: {
           "1": "hsl(var(--chart-1))",
           "2": "hsl(var(--chart-2))",
